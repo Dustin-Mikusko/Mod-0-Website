@@ -1,0 +1,240 @@
+body {
+  margin: 0px;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://www.hotspawn.com/static/29f3f2268116318ac87f825abc55d006/d7e45/rocketleague_whatis.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: -webkit-fill-available\auto;
+  background-attachment: fixed;
+
+}
+header {
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: white;
+  font-size: 55px;
+  font-weight: bold;
+  text-shadow: -5px 0 black, 0 1px black, 1px 0 black, 0 1px black;
+  text-align: center;
+  font-family: Verdana, Geneva, sans-serif;
+  margin: 0px;
+  padding: 1px;
+}
+
+h2{
+  text-align: center;
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+  text-shadow: -3px 0 black, 0 1px black, 1px 0 black, 0 1px black;
+  font-family: Verdana, Geneva, sans-serif;
+  margin: 0px;
+  padding: 1px;
+}
+
+p {
+  font-size: 17px;
+  color: white;
+  font-weight: bold;
+  text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 1px black;
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: justify;
+}
+
+.logo {
+  height: 42px;
+  width: 42px;
+  Padding: 0px 5px 0px 0px;
+}
+.RL {
+  float: left;
+  margin-bottom: 6px;
+  margin-top: 13px;
+  margin-left: 8px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: hsla(250,100%,25%,1);
+  border-bottom: solid;
+  border-color: white;
+  font-weight: bold;
+  font-sie: 19px;
+  text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 1px black;
+  font-family: CenturyGothic, AppleGothic, sans-serif;
+  margin-bottom: 50px;
+  width: 100%;
+  margin-top: 0px;
+}
+
+.navbar a {
+  float: right;
+  font-size: 18px;
+  text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 1px black;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 16px
+}
+
+.carsDropdown, .arenaDropdown, .gameModeDropdown {
+  float: right;
+  overflow: hidden
+}
+
+.carsDropdown .carbtn, .arenaDropdown .arenabtn, .gameModeDropdown .gameModebtn {
+  font-size: 19px;
+  border: none;
+  outline: none;
+  color: white;
+  text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 1px black;
+  padding: 14px 12px;
+  background-color: hsla(240,100%,50%,.0);
+  font-family: CenturyGothic, AppleGothic, sans-serif;
+  font-weight: bold;
+  margin-right: 100px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.navbar a:hover, .carsDropdown:hover .carbtn, .arenaDropdown:hover .arenabtn, .gameModeDropdown:hover .gameModebtn {
+   background-color: hsla(240,100%,50%,.35);
+   border: solid;
+   border-color: hsla(240,100%,50%,.45);
+   border-radius: 8px;}
+
+.cars-content, .arena-content, .gameMode-content {
+  display: none;
+  position: absolute;
+  background-color: hsla(245,100%,30%,.65);
+  border-radius: 2px 8px 2px 8px;
+  min-width: 160px;
+  box-shadow: 0px 8px 8px 0px;
+  z-index: 1;
+}
+
+.cars-content a, .arena-content a, .gameMode-content a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.cars-content a:hover, .arena-content a:hover, .gameMode-content a:hover {
+  background-color: hsla(255,100%,50%,.85);
+  padding-right: 10px;
+
+}
+
+.carsDropdown:hover .cars-content, .arenaDropdown:hover .arena-content, .gameModeDropdown:hover .gameMode-content {
+  display: block;
+}
+
+.topsection {
+  margin-top: 120px;
+  width: 100%;
+  margin-bottom: 100px;
+  height: 350px;
+}
+
+.about {
+  background-color: hsla(240,100%,50%,.35);
+  float: left;
+  height: 310px;
+  width: 560px;
+  border-style: solid;
+  border-color: white;
+  padding: 8px 10px 0px 10px;
+  border-radius: 8px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 100px;
+}
+
+.trailer {
+  border: solid 3px;
+  border-radius: 8px;
+  border-color: white;
+  float: right;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+.middleSection {
+  background-color: hsla(240,100%,50%,.35);
+  border-style: solid;
+  border-color: white;
+  border-radius: 8px;
+  margin: 0px 350px 100px 350px;
+  padding: 0px 10px 0px 10px;
+  text-align: justify;
+}
+
+.bottomsection {
+  width: 100%;
+  height: 350px;
+  margin-bottom: 100px;
+}
+
+.competitive {
+  width: 560px;
+  background-color: hsla(240,100%,50%,.35);
+  margin: 0px 0px 0px 50px;
+  float: left;
+  border-style: solid;
+  border-color: white;
+  border-radius: 8px;
+  padding: 8px 10px 0px 10px;
+}
+
+.noncom {
+  width: 560px;
+  padding: 8px 10px 0px 10px;
+  background-color: hsla(240,100%,50%,.35);
+  float: right;
+  border-style: solid;
+  border-color: white;
+  border-radius: 8px;
+  margin-right: 50px;
+}
+
+.input {
+  border-style: solid;
+  border-color: white;
+  border-radius: 8px;
+  background-color: hsla(240,100%,50%,.35);
+  margin: 0px 350px 100px 350px;
+  padding: 0px 10px 8px 10px;
+}
+
+.inputText {
+  text-align: center;
+  font-size: 17px;
+  color: white;
+  font-weight: bold;
+  text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 1px black;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.field_set {
+  border-style: solid;
+  border-color: white
+  border-radius: 8px;
+  text-align: center;
+  display: inline;
+}
+
+nav {
+  list-style: none;
+  text-align: center;
+  color: white;
+}
+
+li {
+  display: inline;
+  font-size: 17px;
+}
